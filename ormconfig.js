@@ -2,9 +2,9 @@
 module.exports = {
   type: 'mysql',
   host: 'localhost',
-  port: 8889,
-  username: 'root',
-  password: 'root',
+  port: 3306,
+  username: 'dev',
+  password: 'dev',
   database: 'dev',
   entities: ['src/typeorm/models/*.ts'],
   synchronize: false,
