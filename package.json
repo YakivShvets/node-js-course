@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "dev": "ts-node-dev --inspect=0.0.0.0 src/express/lesson1/server.ts",
-    "dev-typeorm": "ts-node-dev --inspect=0.0.0.0 src/typeorm/lesson1/server.ts"
+    "dev-typeorm": "ts-node-dev --inspect=0.0.0.0 src/typeorm/lesson1/server.ts",
+    "migration:run": "ts-node-dev ./node_modules/typeorm/cli.js migration:run"
   },
   "author": "",
   "license": "ISC",
